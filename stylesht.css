@@ -1,0 +1,16 @@
+h1 {
+    background-color: #1F2937;
+}
+
+.nav_bar_site_brand{
+    color:#F9FAf8;
+    font-size: 24px;
+}
+
+.option{
+    color: #E5E7EB;
+    font-size: 18px;
+    position: absolute;
+    top:8px;
+    right:16px;
+}
