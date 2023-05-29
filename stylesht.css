@@ -1,6 +1,7 @@
 body {
-    background-color: white;
+    background-color: transparent;
     margin: 0;
+    padding: 0;
 }
 
 h1 {
@@ -79,7 +80,8 @@ h1::before {
     border-radius: 12px;
     height: 30px;
     width: 100px;
-    margin: 0px;
+    margin-top: 20px;
+    margin-left: 0;
 }
 
 #picture{
@@ -98,9 +100,10 @@ h1::before {
 }
 
 h2{
-    background-color: white;
+    background-color: #1F2937;
     position: relative;
-    width: 100%;
+    margin-bottom: 50px;
+    padding: 30px 0;
     z-index: 2;
 }
 
@@ -112,10 +115,13 @@ h2{
     font-weight: 800;
     color: black;
     margin-bottom: 30px;
+    padding-top: 30px;
 }
 
 .SecCorp{
     margin-bottom: 50px;
+    margin-top: 20px;
+    background-color: white;
 }
 
 .bulle_op {
@@ -133,7 +139,7 @@ h2{
 button {
     height: 150px;
     width: 150px;
-    margin: 30px;
+    margin: 90px;
     border-color: #3882F6;
     border-radius: 40px;
     display: flex;
@@ -149,9 +155,80 @@ button p {
 }
 
 h3{
+    margin: 0;
     background-color: #E5E7EB;
     position: relative;
+    top: -130px;
+    width: 100%;
     z-index: 3;
+}
+
+.last_txt{
+    margin-right: 350px;
+    margin-left: 350px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#main_txt{
+    font-style: italic;
+    color: #1F2937;
+    font-size: 36px;
+    margin: 80px;
+    font-weight: lighter;
+}
+
+#author{
+    font-size: 20px;
+    font-style: normal;
+    float: right;
+    font-weight: bold;
+}
+
+h4{
+    background-color: white;
+    margin: 0px;
+    padding: 80px 0;
+    z-index: 4;
+    position: relative;
+    top: -130px;
+    width: 100%;
+}
+
+.lst_bulle{
+    flex:1;
+    display: flex;
+    justify-content: center;
+    border-radius: 40px;
+    background-color: #3882F6;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#txt_final{
+    color: white;
+    font-size: 22px;
+    font-style: normal;
+    padding: 80px;
+}
+
+#inside{
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+#last_button{
+    background-color: #3882F6;
+    color: white;
+    border-color: white;
+    text-align: center;
+    padding: 5px 25px;
+    border-radius: 12px;
+    height: 30px;
+    width: 100px;
 }
 
 
